@@ -1,0 +1,15 @@
+body {
+    background-color: #161513;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body > iframe {
+    display: none;
+}
+
+@import './fonts.css'
+
