@@ -8,7 +8,6 @@ This is the source code for the portfolio website. The website, which features m
   - **About Me**: Brief introduction.
   - **Projects**: Showcase of creative projects.
   - **Contact**: Links to connect.
-- Mobile-friendly navigation with a hamburger menu.
 - Smooth scrolling between sections.
 - Back-to-top button for easy navigation.
 - Integrated YouTube API for real-time stats.
