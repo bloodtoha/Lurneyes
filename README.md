@@ -1,6 +1,6 @@
 # LURNEYES - Personal Portfolio
 
-This is the source code for my personal portfolio website. The website showcases my work, skills, and contact information, designed to be responsive and visually appealing.
+This is the source code for the portfolio website. The website, which features my work, skills, and contact information, is designed to be responsive and visually appealing.
 
 ## Features
 
@@ -12,7 +12,6 @@ This is the source code for my personal portfolio website. The website showcases
 - Smooth scrolling between sections.
 - Back-to-top button for easy navigation.
 - Integrated YouTube API for real-time stats.
-- Hosted on GitHub Pages.
 
 ## Technologies Used
 
