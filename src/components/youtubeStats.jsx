@@ -3,9 +3,10 @@ import { CircularProgress } from "@mui/material";
 import CountUp from "react-countup";
 import '../style/main.css';
 
+
 const YouTubeStats = () => {
     const [stats, setStats] = useState(null);
-    const API_KEY = "AIzaSyBbX_UQm9gJwoPouYOE6jOHx0Zl6Kj-emM";
+    const API_KEY = process.env.REACT_APP_API_KEY;
     const HANDLE = "@lurneyes1253";
 
     useEffect(() => {
