@@ -27,4 +27,4 @@ To set up and run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
+   git clone https://github.com/bloodtoha/Lurneyes.git
