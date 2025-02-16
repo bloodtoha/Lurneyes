@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CircularProgress } from "@mui/material";
 import CountUp from "react-countup";
-import '../style/main.css';
-
+import "../style/main.css";
 
 const YouTubeStats = () => {
     const [stats, setStats] = useState(null);
@@ -32,9 +31,9 @@ const YouTubeStats = () => {
     return (
         <div>
             {stats ? (
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '0'}}>
+                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", padding: "0"}}>
                     <p>
-                        View:{" "}
+                        Views:{" "}
                         <CountUp
                             start={0}
                             end={parseInt(stats.viewCount)}
@@ -43,7 +42,7 @@ const YouTubeStats = () => {
                         />
                     </p>
                     <p>
-                        Subscribe:{" "}
+                        Subscribers:{" "}
                         <CountUp
                             start={0}
                             end={parseInt(stats.subscriberCount)}
@@ -53,7 +52,7 @@ const YouTubeStats = () => {
                     </p>
                 </div>
             ) : (
-                <CircularProgress sx={{color: '#ff7e5f'}} className="circularBar"/>
+                <CircularProgress sx={{color: "#ff7e5f"}} className="circularBar"/>
             )}
         </div>
     );
